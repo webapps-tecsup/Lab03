@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casa de Cambio</title>
+    <link rel="stylesheet" href="../styles/tareaStyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>CASA DE CAMBIO</h2>
+      <div class="section">
+        <p>Seleccionar moneda a enviar:</p>
+        <form id="monedas">
+          <div class="opciones">
+            <input type="radio" name="monedas" value="dolar" id="dolar" />
+            <label for="dolar">Dolar</label>
+            <!-- <input type="radio" name="monedas" value="soles" id="soles" /> Soles -->
+            <input type="radio" name="monedas" value="euro" id="euro" />
+            <label for="euro">Euro</label>
+          </div>
+        </form>
+        <br />
+        <label class="text" for="monto" id="">Ingrese monto en soles:</label>
+        <br />
+        <div class="cantidad">
+          <input class="i_monto" type="number" id="monto" />
+        </div>
+        <br />
+        <div class="button"><button onclick="cambiar()">Cotizar</button></div>
+      </div>
+    </div>
+  </body>
+  <script src="../scripts/tarea.js"></script>
+</html>
