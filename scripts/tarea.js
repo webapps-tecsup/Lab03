@@ -1,7 +1,7 @@
 function cambiar() {
   const moneda = document.getElementById("monedas").elements["monedas"].value;
   const monto = Number(document.getElementById("monto").value);
-  const tasaCambioDolares = 0.26;
+  const tasaCambioDolares = 0.25;
   const tasaCambioEuros = 0.26;
 
   if (moneda == "dolar") {
